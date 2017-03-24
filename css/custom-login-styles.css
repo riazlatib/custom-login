@@ -46,6 +46,7 @@ form#loginform, form#lostpasswordform {
 /* User Input Fields */
 input#user_login.input, input#user_pass.input {
   border-radius: 3px;
+  -webkit-box-shadow: 0 0 0px 1000px #ddd inset !important;
 }
 
 input#wp-submit.button.button-primary.button-large {
