@@ -20,3 +20,10 @@ body.login {
 .login h1 a {
   background-image: url('../images/peace.png');
 }
+
+/* You are now logged out message */
+p.message {
+  color: #999;
+  background-color: #dcdbe1 !important;
+  border-radius: 3px;
+}
