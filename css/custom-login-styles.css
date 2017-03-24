@@ -1,0 +1,22 @@
+/*
+  File Name: Stylesheet
+  Plugin URI: http://riazlatib.com
+  Description: Configure the layout of the login screen
+  Version: 0.1
+  Author: Riaz Latib
+  Author URI: http://riazlatib.com
+  License: GPL2
+*/
+
+body.login {
+  background-image: url('../images/emo-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 45%;
+}
+
+.login h1 a {
+  background-image: url('../images/peace.png');
+}
