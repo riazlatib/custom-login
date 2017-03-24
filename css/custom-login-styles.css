@@ -21,9 +21,38 @@ body.login {
   background-image: url('../images/peace.png');
 }
 
+/* Vertical Align the Whole Div Section*/
+div#login {
+  margin-top: 50px;
+}
+
 /* You are now logged out message */
 p.message {
   color: #999;
-  background-color: #dcdbe1 !important;
+  background: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 1px 25px !important;
+}
+
+/* Login Form Window *//* Forgot Password Window */
+form#loginform, form#lostpasswordform {
+  background: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* User Input Fields */
+input#user_login.input, input#user_pass.input {
   border-radius: 3px;
+}
+
+input#wp-submit.button.button-primary.button-large {
+  background: #ddd !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  color: #666 !important;
+  text-shadow: none !important;
 }
